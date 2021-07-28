@@ -1,0 +1,10 @@
+[Unit]
+Description=AKTIN Update-Info Service
+After=network.target
+
+[Service]
+ExecStart=__PACKAGE__-info
+
+[Install]
+WantedBy=default.target
+

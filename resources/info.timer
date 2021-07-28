@@ -1,0 +1,9 @@
+[Unit]
+Description=AKTIN Update-Info Service Timer
+
+[Timer]
+OnCalendar=hourly
+
+[Install]
+WantedBy=basic.target
+
