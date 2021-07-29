@@ -3,7 +3,6 @@ set -euo pipefail
 
 mkdir -p "__AKTINUPDATEDIR__"
 
-apt update
 INSTALLED=$(LC_ALL=C apt-cache policy "aktin-notaufnahme-dwh" | sed -nE 's/^\s*Installed:\s*(.*)$/\1/p')
 CANDIDATE=$(LC_ALL=C apt-cache policy "aktin-notaufnahme-dwh" | sed -nE 's/^\s*Candidate:\s*(.*)$/\1/p')
 

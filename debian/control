@@ -3,6 +3,7 @@ Version: __VERSION__
 Section: science
 Priority: optional
 Architecture: all
+Depends: unattended-upgrades
 Maintainer: AKTIN IT <it-support@aktin.org>
 Description: AKTIN Datawarehouse Update-Agent in Notaufnahmen
 

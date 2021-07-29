@@ -3,7 +3,6 @@ set -euo pipefail
 
 mkdir -p "__AKTINUPDATEDIR__"
 
-apt update
 apt install aktin-notaufnahme-dwh >"__AKTINUPDATEDIR__/log" 2>&1
 
 if [ $! -eq 0 ]; then
